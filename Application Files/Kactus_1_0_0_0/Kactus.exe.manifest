@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Kactus.exe" version="1.0.0.0" publicKeyToken="608d4b1401d30655" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Kactus" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Kactus.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Kactus.exe" size="296928">
+      <assemblyIdentity name="Kactus" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>O+FkX3+9X9N/LT9B+CBYCZay4OkebUdVmXwAdMAC6X8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="cactus.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mOcEIaMypn8+KVcZlJ+pUPb5PRLWU615J5ileqX/BOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="cactus_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3df2+DVjhQsLwaklvfl8XyQ2E+ii3Hf21HTa7mHjsX4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Kactus.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-H3TVAHCT\ktani" issuerKeyHash="449a6e3c20fab02de0d4a79f21e3a3b1dded2bae" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yxTKI5zm7rMGyWo+7LrQObcRdI4fTsKIOopaOjW2c18=</DigestValue></Reference></SignedInfo><SignatureValue>Qp6VkYOulRsDiw86EEe34BcrCwj7Z/rofc/BUA0AkvC4i9oxDXnFwVOYa1cTOzdjPy3fOd5bhylBSk0QyYanQnEyCfY2VS7FFdh+E6ApAUkuf6adItKJJ7j6yM8bo4S/sqvRJKMxjYpss13TXd4RASMM3ObsFqWS/h2HJYxV5Tg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yPIspvb3Ea1z0i2YTbpEuslTjHcp5RBomvfzQNh+KQERqMudKRJRggdnpHQp3ihU6Gwrx6KkSEU8tHIy2C0jAeYUYeUt867yENvWz8TLIVM2kS4GWk/bViJzHCg6ihRVOAwaBY2vyO0hAwuh0rq9WCDg+a9vjiIs7AACTk0V/kE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5f73b6353a5a8a3a88c24e1f8e7411b739d0baec3e6ac906b3eee69c23ca14cb" Description="" Url=""><as:assemblyIdentity name="Kactus.exe" version="1.0.0.0" publicKeyToken="608d4b1401d30655" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-H3TVAHCT\ktani</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YYni6Kl5KzAomuiy7V+N8F1hH7fNg/uob6WBQV+SoMg=</DigestValue></Reference></SignedInfo><SignatureValue>STu6+ywrm7NMeU2BYbfpNAIxTV7mrA/NkFj7KyGgUdP2hDm1JOIN0Latw4T+fAdvh0aj6wKC5W79M8lx9mf/8hVKkwx0DcSS1uzMGl2H6jMlfu/RiijJuzp65APrPzk0zmI8YHDGQo99O208lMoDP7Y6iuJn3jYi1DSNfx5taDo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yPIspvb3Ea1z0i2YTbpEuslTjHcp5RBomvfzQNh+KQERqMudKRJRggdnpHQp3ihU6Gwrx6KkSEU8tHIy2C0jAeYUYeUt867yENvWz8TLIVM2kS4GWk/bViJzHCg6ihRVOAwaBY2vyO0hAwuh0rq9WCDg+a9vjiIs7AACTk0V/kE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQFXisf7NOjqBLsXWPVzoXAjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBIADMAVABWAEEASABDAFQAXABrAHQAYQBuAGkwHhcNMTgxMjAzMjI0NTM4WhcNMTkxMjA0MDQ0NTM4WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBIADMAVABWAEEASABDAFQAXABrAHQAYQBuAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMjyLKb29xGtc9ItmE26RLrJU4x3KeUQaJr380DYfikBEajLnSkSUYIHZ6R0Kd4oVOhsK8eipEhFPLRyMtgtIwHmFGHlLfOu8hDb1s/EyyFTNpEuBlpP21YicxwoOooUVTgMGgWNr8jtIQMLodK6vVgg4Pmvb44iLOwAAk5NFf5BAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAsTN9Pi2ue2hRIePaErDFcm8xtwQjIaqVoYoMVOqxp5zsKhPJ38DNyOmLY71TL39QQMdTspniWpbAGXknVDJLFi83hK8tXw09ul1yi7u1waz/VcjaAYM6JXqtc7sFxQwTP1pctCq9p3bXSFm5JLTdQji+pAHConjkLiP92FKnbHM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

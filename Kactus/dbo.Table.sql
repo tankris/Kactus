@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Table]
+(
+	[u_id] VARCHAR(50) NOT NULL PRIMARY KEY, 
+    [pass] VARCHAR(50) NOT NULL
+)
